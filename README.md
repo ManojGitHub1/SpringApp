@@ -1,6 +1,5 @@
 # Spring and Spring Boot Learning Project
-### This project is a collection of my learnings and implementations in Spring and Spring Boot, covering essential components of modern web development with Java.
-### Key topics include understanding the Spring framework, using Spring Boot for rapid development, interacting with H2 databases, implementing the MVC model, libraries for efficient development.
+### This project is a collection of my learnings and implementations in Spring and Spring Boot, covering essential components of modern web development with Java. Key topics include understanding the Spring framework, using Spring Boot for rapid development, interacting with H2 databases, implementing the MVC model, libraries for efficient development.
 
 ## Technologies Used
 1. Java: Primary programming language.
