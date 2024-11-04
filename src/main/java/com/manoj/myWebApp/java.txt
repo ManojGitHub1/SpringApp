@@ -1,0 +1,57 @@
+Now, we have Controller layer, Services layer and Repository(Model) layer.
+We will use the Controller layer to handle the HTTP requests and responses.
+We will use the Services layer to perform the business logic.
+We will use the Model layer to store our data.
+
+Earlier Days JDBC code(7 steps) were written in the Repository layer.
+1. Load Driver
+2. Establish Connection
+3. Create Statement
+4. Execute Query
+5. Fetch Data
+6. Close Connection
+7. Close Statement
+
+Now we use Spring JDBC Template to reduce the code and make it more efficient.
+Just to send data from service layer to repository layer we use 
+the interface and implement it in the repository layer. 
+and we use ORM
+
+ORM (Object Relational Mapping)
+1. In java world everything is an object.
+so object will have data(here pID, pName, price) and behaviour(methods)
+2. In DB world everything is a table.
+so we need to map the object to the relational database table.
+3. We use the ORM to map the object to the relational database table.
+
+e.g:-
+Data:- pID=101, pName=Iphone, price=50000
+Object:- Product(pID=101, pName=Iphone, price=50000)
+now write Query(insert) and store
+but what if we don't need to write the query.
+
+😊Everything is JAVA 
+So, ORM will take care of it.
+ORM will translate's object into sql query.
+
+but question is who will create table, columns, rows?
+ORM tool - Hibernate, EclipseLink.
+Table name is Class name, column name is each variable/property name.
+and rows are the objects of the class. (n objects n rows).
+
+If we use Hibernate in future if we have to change the DB from MySQL to Oracle.
+or change the tool from Hibernate to someother we have to do a lot of changes.
+because all these tool don't follow same standard.
+So, we use Spring Data JPA.
+
+JPA (Java Persistence API)
+jpa are just standards, Hibernate,other tools implements those standards.
+So module name is Spring Data JPA.
+
+We will use h2 database which is a in-memory database.
+
+
+
+
+
+
