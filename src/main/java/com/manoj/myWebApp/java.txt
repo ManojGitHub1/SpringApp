@@ -50,6 +50,9 @@ So module name is Spring Data JPA.
 
 We will use h2 database which is a in-memory database.
 
+FrontEnd:
+Earlier days in java for frntend we use to use Swing, JSP, AWT, html, css.
+
 
 
 
