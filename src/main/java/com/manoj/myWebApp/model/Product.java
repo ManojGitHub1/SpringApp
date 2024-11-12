@@ -19,7 +19,6 @@ import jakarta.persistence.Id;
 @Component
 @Entity
 public class Product {
-    
 
     // To declare prodId as the primary key of the Product table
     @Id
